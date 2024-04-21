@@ -1,0 +1,5 @@
+# Ignore dataset
+university_data.xlsx
+
+# Ignore venv
+myenv/
