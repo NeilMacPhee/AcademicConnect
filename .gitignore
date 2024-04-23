@@ -3,3 +3,7 @@ university_data.xlsx
 
 # Ignore venv
 myenv/
+
+# Ignore model and tokenizer
+models/model.pkl
+models/tokenizer.pkl
