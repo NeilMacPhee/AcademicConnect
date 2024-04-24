@@ -52,6 +52,7 @@ AcademicConnect is a recommendation system designed to connect students and prof
 Academic Connect uses FastAPI and Docker to deploy an API to utilize the recommendor model. The code for deploying the Dockerfile was adapted from [ml-fastapi-docker-heroku](https://github.com/AssemblyAI-Examples/ml-fastapi-docker-heroku/tree/main) by `ploeber`.
 
 1. ### Create Docker container
+Navigate to the `api/` directory within the Academic Connect repository before running the following code.
 `docker build -t academic-connect-app .`
 
 2. ### Run Docker container
