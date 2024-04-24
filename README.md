@@ -59,17 +59,17 @@ Academic Connect uses FastAPI and Docker to deploy an API to utilize the recomme
 
 3. ### Navigate to [`0.0.0.0/docs`](0.0.0.0/docs)
 Once on the `/docs` page, naviagte to the green **POST** section and click on the drop down menu. Click on "Try it out", and input an example of a student in the following format.
-
+```json
 {
   "student_guid": "a73e3d91-8f7c-4d8a-bb1e-e96f7212f6c2",
   "name": "John Doe",
   "research_interests": "Topology, Calculus, Mathematical Physics, Geometry, Number Theory, Probability, Applied Mathematics, Statistics, Differential Equations",
   "university_field": "Mathematics"
 }
-
+```
 4. ### Evaluate results
 In the reponses section below, evaluate the response from the recommender system. The output should be in the following format.
-
+```json
 {
   "student_guid": "c62f086d-6e88-4b4f-ac06-d53d56040929",
   "name": "John Kelly",
@@ -77,3 +77,5 @@ In the reponses section below, evaluate the response from the recommender system
   "university_field": "Mathematics",
   "similarity_score": 0.9830063257106761
 }
+```
+
